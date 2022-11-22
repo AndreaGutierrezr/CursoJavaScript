@@ -19,3 +19,8 @@ disponible = false;
 var categoria = 'Computadoras',
     marca = "Marca famosa",
     calificacion = 5;
+
+//variables con más de una palabra
+var nombreProducto; //primera letra de la segunda palabra en mayúscula se conoce como Camel Case
+var nombre_producto; //separar las palabras con guión bajo, se le conoce como under score o snake
+var NombreProducto; //Inicia con letra mayúscula la primera letra de cada palabra, se le conoce como Pascal Case
