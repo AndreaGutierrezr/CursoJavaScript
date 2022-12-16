@@ -9,6 +9,6 @@ const producto = {
 console.log(Object.keys(producto));
 //regresa los valores asignados a las llaves
 console.log(Object.values(producto));
-//regrea llaves y valores
+//regresa llaves y valores
 //retorna valores en pares
 console.log(Object.entries(producto));
