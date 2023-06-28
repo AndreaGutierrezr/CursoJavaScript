@@ -1,3 +1,4 @@
+//Un string es texto que se le puede asignar a una variable
 const producto = "Monitor de 20 Pulgadas";
 //Escapar las comillas con una diagonal invertida '/'
 //const producto = "Monitor de 24\"";
