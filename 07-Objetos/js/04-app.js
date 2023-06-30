@@ -10,6 +10,7 @@ console.log(nombre);
 
 //Object destructuring
 //Extrae el valor y crea la variable
+//Dentro de las llaves se coloca el nombre de la clave del valor a extraer
 const {precio, disponible} = producto;
 console.log(precio);
 console.log(disponible);

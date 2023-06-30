@@ -5,7 +5,7 @@ const producto = {
     precio : 300,
     disponible : true,
     mostrarInfo: function(){
-        //la palabra this se refiere a los valores que se encuentran dentro del mimo objeto
+        //la palabra this se refiere a los valores que se encuentran dentro del mismo objeto
         console.log(`El producto: ${producto.nombre} tiene un precio de: ${this.precio}`)
     }
 }

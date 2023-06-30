@@ -3,6 +3,7 @@
 //obsevamos a continuación, esta se conoce como Object literal
 const producto = {
     //para asignar el valor se utilizan los dos puntos
+    //propiedad o llave del objeto :  //valor
     nombre : "Monitor 20 pulgadas",
     precio : 300,
     disponible : true
