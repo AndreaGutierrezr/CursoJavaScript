@@ -21,7 +21,7 @@ const producto5 = {
     nombre: 'Tablet',
     precio: 5000
 }
-//funciones imperativas que modifican la variable original
+//funciones imperativas que modifican la variable original, la declarativa no
 //agregar el producto al carrito
 carrito.push(producto);
 carrito.push(producto2);
