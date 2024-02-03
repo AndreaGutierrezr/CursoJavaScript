@@ -7,17 +7,18 @@ const reproductor = {
     pausar: () => {
         console.log('Pausando...');
     },
-    crearPlaylist: function(name){
+    crearPlaylist: name => {
         console.log(`Creando la playlist de ${name}`);
     },
-    reproducirPlaylist: function(name){
+    reproducirPlaylist: name => {
         console.log(`Reproduciendo la playlist ${name}`);
     },
-
+    //agregar valores
     set nuevaCancion(cancion){
         this.cancion = cancion;
         console.log(`Añadiendo ${cancion}`);
     },
+    //obtener de vuelta los valores
     get obtenerCancion(){
         console.log(`${this.cancion}`)
     }

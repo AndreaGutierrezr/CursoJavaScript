@@ -8,6 +8,10 @@ const carrito = [
     {nombre: 'Celular', precio: 700},
 ]
 
+// const nuevoArreglo = carrito.map( (producto) => {
+//     return `${producto.nombre} - precio: ${producto.precio}` ;
+// })
+
 //no crea un nuevo arreglo
 carrito.forEach( producto => {
     console.log(`${producto.nombre} - Precio: ${producto.precio}`);
@@ -15,3 +19,5 @@ carrito.forEach( producto => {
 
 //crea un arreglo nuevo
 carrito.map( producto => console.log(`${producto.nombre} - Precio: ${producto.precio}`));
+
+// const nuevoArreglo = carrito.map( producto => `${producto.nombre} - precio: ${producto.precio}` );

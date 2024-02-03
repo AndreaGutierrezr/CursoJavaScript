@@ -3,7 +3,7 @@
 const dinero = 300;
 const totalAPagar = 500;
 const tarjeta = true;
-const cheque = true;
+const cheque = false;
 
 if(dinero >= totalAPagar){
     console.log('Si podemos pagar');
