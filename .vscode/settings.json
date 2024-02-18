@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "editor.accessibilityPageSize": 10,
+    "editor.codeActionWidget.showHeaders": true,
+    "editor.minimap.enabled": false,
+    "multiDiffEditor.experimental.enabled": true
+}
